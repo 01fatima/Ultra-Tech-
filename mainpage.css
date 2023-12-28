@@ -1,0 +1,123 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #052a44 ;
+    }
+
+    header {
+      color: white;
+      
+      padding: 2px;
+      text-align: center;
+      text-indent: 45px;
+    }
+    img{
+      width: 230px;
+      margin-left: 4%;
+      margin-top: 2%;
+      float: left;
+    
+
+
+    }
+   
+    nav {
+      border-top-left-radius: 2px;
+      border-top-right-radius: 2px;
+      border-radius: 70px;
+      border: 2px solid cadetblue ; 
+      float: right;
+      background-color: aliceblue;
+      display: inline-block;
+      align-items: right;
+      margin-right: 7%;
+      margin-top: 30px;
+      padding: 1%;
+      overflow: hidden;
+      
+     
+    }
+    
+
+    nav a {
+      
+      margin-right: 40px;
+      color: #082e47;
+      text-decoration: none;
+      padding: 0%;
+      transition: background-color 0.3s ease;
+      cursor: pointer;
+    }
+
+    nav a:hover {
+      color: #2980b9;
+    }
+     
+         
+      .Home img{
+         width: 499px;
+        position: absolute;
+        bottom: 8%;
+        left: 55%;
+
+      }   
+    
+       h1{
+        
+        color: red;
+        margin-top: 15%;
+          text-indent: 8%; 
+          font-size: 35px;
+            animation: h1 3s ease-in-out infinite;
+          }
+          @keyframes h1 {
+            0%, 100% {
+              transform: translateY(0);
+            }
+            50% {
+              transform: translateY(-10px);
+            }
+          }
+        
+          
+          h2{
+            
+        color: white;
+        margin-top: 1%;
+            text-indent: 8%; 
+            font-size: 30px;
+            animation: h2 3s ease-in-out infinite;
+          }
+          @keyframes h2 {
+            0%, 100% {
+              transform: translateY(0);
+            }
+            50% {
+              transform: translateY(-10px);
+            }
+          }
+        
+          .Home h2 i{
+            color: red;
+          }
+         ul{
+          list-style-type: none;
+          margin-top: 5%;
+          margin-left: 4%;
+          margin-bottom: 2%;
+         
+         }
+         li {
+          list-style:circle ;
+         color: aliceblue;
+         }
+  .Services h1 {
+    text-indent: 8%;
+    
+    position: relative;
+  }
+          
+        
+         
